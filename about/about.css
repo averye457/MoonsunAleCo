@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+.london-map {
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Arsenal', sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 15px 0;
+  margin: 0 0;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.primary,
+.secondary {
+  width: 385px;
+  padding-right: 20px;
+  font-family: 'Butler Light', 'Times', 'Times New Roman', serif;
+  font-size: 23px;
+  color: rgb(220, 129, 62);
+  margin-top: 3px;
+  text-justify: inter-word;
+  border-bottom: 4px solid rgb(220, 129, 62);
+}
+
+.secondary {
+
+}
+
+.tertiary {
+  width: 200px;
+  height: 300px;
+  margin-left: 30px;
+}

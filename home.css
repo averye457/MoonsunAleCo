@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+.container-pic {
+  margin: 20px auto;
+  position: relative;
+  text-align: center;
+
+}
+
+.container-pic img {
+  height: 422px;
+  width: 750px;
+}
+
+.container-pic div {
+  position: absolute;
+  width: 100%;
+  top: 35px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container-pic div p {
+  font-family: 'Arsenal', sans-serif;
+  font-weight: 400;
+  color: white;
+  font-stretch: expanded;
+  font-size: 40px;
+  font-style: italic;
+  text-transform: uppercase;
+  opacity: .8;
+}
+
+.container-pic button {
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: solid 2px white;
+  background-color: transparent;
+  width: 210px;
+  height: 45px;
+  border-radius: 6px;
+  transition-duration: 0.2s;
+  text-decoration: none;
+}
+
+.container-pic button:hover {
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+}
+
+.container-pic button a {
+  text-decoration: none;
+  font-size: 28px;
+  font-family: 'Arsenal', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  text-transform: uppercase;
+  color: white;
+}
+
+.container-pic button a:hover {
+  text-decoration: none;
+}
+
+.container-pic button a:visited {
+  text-decoration: none;
+}

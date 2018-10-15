@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Butler Light';
+    src: url('fonts/Butler/Butler_Webfont/butler_light-webfont.woff2') format('woff2'),
+         url('fonts/Butler/Butler_Webfont/butler_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  background-color: rgb(255, 246, 236);
+  padding: 0;
+  margin: 0;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.logo-image {
+  position: relative;
+  top: 12px;
+  height: 163px;
+  width: 220px;
+}
+
+.nav {
+  padding: 0;
+  margin: 10px auto;
+  width: 975px;
+  margin-bottom: 30px;
+}
+
+.nav ul {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav ul li a {
+  padding: 0;
+  text-decoration: none;
+  font-family: 'Arsenal', sans-serif;
+  font-weight: 400;
+  font-size: 23px;
+  font-style: italic;
+  color: black;
+  text-transform: uppercase;
+}
+
+.nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.left {
+  margin: 0;
+  margin-right: 80px;
+}
+
+.right {
+  margin: 0;
+  margin-left: 80px;
+}
+
+.left-of-logo {
+  padding-right: 100px;
+}
+
+.right-of-logo {
+  padding-left: 100px;
+}
+
+/* footer {
+  position: absolute;
+  bottom: 0;
+} */
+
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  background-color: black;
+  margin: 0 auto;
+  margin-top: 75px;
+  padding: 0;
+}
+
+footer p {
+  font-size: 16px;
+  display: inline-block;
+  color: rgb(255, 246, 236);
+  margin: 0;
+  padding: 0;
+}
+
+.first-p {
+  position: relative;
+  top: 3px;
+}
+
+.second-p {
+  position: relative;
+  top: -3px;
+}
+
+footer p a {
+  text-decoration: none;
+  color: rgb(220, 129, 62);
+}
+
+footer p a:visited {
+  text-decoration: none;
+  color: rgb(220, 129, 62);
+}
+
+footer p a:hover {
+  text-decoration: underline;
+  color: rgb(220, 129, 62);
+}
