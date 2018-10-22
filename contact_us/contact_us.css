@@ -8,6 +8,7 @@
 .contact-info {
   margin: 0;
   margin-top: -5px;
+  padding: 0;
   padding-bottom: 20px;
   width: 500px;
   padding-left: 150px;
@@ -59,11 +60,15 @@
 
 #pintglass-image {
   margin: 0;
-  width: 500px;
+  padding: 0;
+  width: 219px;
+  padding-left: 100px;
+  padding-top: 45px;
+  float: right;
 }
 
-div img {
+#pintglass-image img {
   margin: 0;
-  height: 428px;
-  width: 500px;
+  height: 400px;
+  width: 219px;
 }
