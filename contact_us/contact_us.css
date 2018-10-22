@@ -1,0 +1,69 @@
+
+
+.contain {
+  display: flex;
+  flex-direction: row;
+}
+
+.contact-info {
+  margin: 0;
+  margin-top: -5px;
+  padding-bottom: 20px;
+  width: 500px;
+  padding-left: 150px;
+  border-right: solid 1px black;
+}
+
+.contact-info h1 {
+  margin: 10px 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'Arsenal', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  font-style: normal;
+  color: black;
+  text-transform: uppercase;
+}
+
+.contact-info p {
+  margin: 0;
+  padding: 0;
+  font-family: 'Butler Light', 'Times', 'Times New Roman', serif;
+  font-size: 20px;
+  color: rgb(220, 129, 62);
+}
+
+#small-break {
+  margin-bottom: 8px;
+}
+
+#large-break {
+  margin-bottom: 40px;
+}
+
+.contact-info p a {
+  text-decoration: none;
+  color: rgb(220, 129, 62);
+}
+
+.contact-info p a:hover {
+  text-decoration: underline;
+  color: rgb(220, 129, 62);
+}
+
+.contact-info p a:visited {
+  text-decoration: none;
+  color: rgb(220, 129, 62);
+}
+
+#pintglass-image {
+  margin: 0;
+  width: 500px;
+}
+
+div img {
+  margin: 0;
+  height: 428px;
+  width: 500px;
+}
