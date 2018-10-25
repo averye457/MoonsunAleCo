@@ -7,19 +7,41 @@
     <link href="https://fonts.googleapis.com/css?family=Arsenal:400,400i,700i" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="home.css">
+    <meta name="viewport" content="width=device-width">
   </head>
 
   <body>
-    <div class='body'>
+    <div class='body content'>
 
       <!-- NAVIGATION AND LOGO -->
+
+      <div class='mobile-nav'>
+        <img class='mobile-logo logo-image' src='images/logo.png' />
+        <div class="navbar">
+          <div class="dropdown">
+            <button class="dropbtn">=
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="about/about.html">About</a>
+              <a href="our_brews/our_brews.html">Our Brews</a>
+              <a href="shop/shop.html">Shop</a>
+              <a href="contact_us/contact_us.html">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
       <div class="nav">
         <ul>
-          <li><a href='about/about.html' class='left' href="index.html">About</a></li>
-          <li class='left-of-logo'><a href="our_brews/our_brews.html">Our Brews</a></li>
+          <li class='break3'><a href='about/about.html' class='left' href="index.html">About</a></li>
+          <li class='left-of-logo break3'><a href="our_brews/our_brews.html">Our Brews</a></li>
           <li><a href='index.html'><img class='logo-image' src='images/logo.png' /></a></li>
-          <li class='right-of-logo'><a href="shop/shop.html">Shop</a></li>
-          <li><a href='contact_us/contact_us.html' class='right' href="index.html">Contact Us</a></li>
+          <li class='right-of-logo break3'><a href="shop/shop.html">Shop</a></li>
+          <li class='break3'><a href='contact_us/contact_us.html' class='right' href="index.html">Contact Us</a></li>
         </ul>
       </div>
 
@@ -29,7 +51,7 @@
 
       <div class="container-pic">
         <img src='images/beer_up_close.jpg' />
-        <div class='pic-cap'><p>Fresh - Fermented - Flavor</p></div>
+        <div class='pic-cap'><p>Fresh<br class='pic-cap-break' /> <span class='pic-cap-erase'>- </span>Fermented<br class='pic-cap-break' /> <span class='pic-cap-erase'>- </span>Flavor<br class='pic-cap-break' /></p></div>
         <button type='button'><a href='our_brews/our_brews.html'>Learn More</a></button>
       </div>
 
@@ -73,8 +95,8 @@
     <!-- FOOTER -->
     <div class='push-footer-down'></div>
     <footer>
-      <p class='first-p'>&copy; Website Design by Grace Evans. Find more of her work at her website <a href='https://www.itsjustgrace.com/' target='_blank'>itsjustgrace.com</a>.</p>
-      <p class='second-p'>Web Development by Avery Evans. <a href="mailto:averyevans@uky.edu" target="_top">averyevans@uky.edu</a></p>
+      <p class='first-p'>&copy; Website Design by <span class='footer-erase'>Grace Evans. Find more of her work at her website <a href='https://www.itsjustgrace.com/' target='_blank'></span>itsjustgrace.com</a>.</p>
+      <p class='second-p'>Web Development by <span class='footer-erase'>Avery Evans. </span><a href="mailto:averyevans@uky.edu" target="_top">averyevans@uky.edu</a></p>
     </footer>
 
   </body>

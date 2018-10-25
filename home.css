@@ -71,3 +71,106 @@
 .container-pic button a:visited {
   text-decoration: none;
 }
+
+.pic-cap-break {
+  display: none;
+}
+
+
+@media (max-width: 900px) {
+
+  div.container-pic {
+    padding-top: 50px;
+
+  }
+
+  .pic-cap {
+    margin-top: 50px;
+  }
+
+  .container-pic img {
+    height: 338px;
+    width: 600px;
+  }
+
+  .container-pic div p {
+    font-size: 30px;
+  }
+
+}
+
+@media (max-width: 750px) {
+
+
+  div.container-pic {
+    padding-top: 60px;
+
+  }
+
+  .pic-cap {
+    margin-top: 60px;
+  }
+
+  .container-pic img {
+    object-fit: cover;
+    height: 500px;
+    width: 500px;
+  }
+
+  .container-pic div p {
+    font-size: 36px;
+  }
+
+  .container-pic button {
+    width: 300px;
+    height: 64px;
+  }
+
+  .container-pic button a {
+    font-size: 36px;
+  }
+
+
+
+
+}
+
+@media (max-width: 600px) {
+
+  div.container-pic {
+    padding-top: 75px;
+
+  }
+
+  .pic-cap {
+    margin-top: 110px;
+  }
+
+  .pic-cap-break {
+    display: inline;
+  }
+
+  .pic-cap-erase {
+    display: none;
+  }
+
+  .container-pic img {
+    object-fit: cover;
+    height: 500px;
+    width: 400px;
+  }
+
+  .container-pic div p {
+    font-size: 36px;
+  }
+
+  .container-pic button {
+    width: 300px;
+    height: 70px;
+  }
+
+  .container-pic button a {
+    font-size: 36px;
+  }
+
+}

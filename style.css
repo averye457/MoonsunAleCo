@@ -24,6 +24,18 @@ body {
   width: 1000px;
 }
 
+.content {
+  min-height: calc(100vh - 60px);
+}
+
+.navbar {
+  display: none;
+}
+
+.mobile-logo {
+  display: none;
+}
+
 .logo-image {
   position: relative;
   top: 12px;
@@ -80,11 +92,6 @@ body {
   padding-left: 100px;
 }
 
-/* footer {
-  position: absolute;
-  bottom: 0;
-} */
-
 footer {
   width: 100%;
   display: flex;
@@ -129,4 +136,272 @@ footer p a:visited {
 footer p a:hover {
   text-decoration: underline;
   color: rgb(220, 129, 62);
+}
+
+
+
+@media (max-width: 1200px) {
+
+  .nav {
+    width: 900px;
+  }
+
+  .left {
+    margin-right: 50px;
+  }
+
+  .right {
+    margin-left: 50px;
+  }
+
+  .left-of-logo {
+    padding-right: 80px;
+  }
+
+  .right-of-logo {
+    padding-left: 80px;
+  }
+
+  footer {
+    margin-top: 0;
+  }
+
+}
+
+@media (max-width: 1000px){
+
+  .body {
+    width: 800px;
+  }
+
+  .nav {
+    width: 750px;
+  }
+
+  .left {
+    margin-right: 30px;
+  }
+
+  .right {
+    margin-left: 30px;
+  }
+
+  .left-of-logo {
+    padding-right: 50px;
+  }
+
+  .right-of-logo {
+    padding-left: 50px;
+  }
+}
+
+@media (max-width: 900px) {
+
+  .body {
+    width: 750px;
+  }
+
+  .nav {
+    position: relative;
+    top: 110px;
+  }
+
+  .logo-image {
+    position: relative;
+    top: -100px;
+    left: -10px;
+    height: 120px;
+    width: 162px;
+  }
+
+  .nav ul .break3 {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left {
+    margin-right: 10px;
+  }
+
+  .right {
+    margin-left: 10px;
+  }
+
+  .left-of-logo {
+    position: relative;
+    left: 50px;
+  }
+
+  .right-of-logo {
+    position: relative;
+    right: 50px;
+  }
+
+  .container-pic img {
+    margin-bottom: auto;
+  }
+
+  footer p {
+    font-size: 14px;
+  }
+
+}
+
+@media (max-width: 750px) {
+
+  .body {
+    width: 595px;
+    margin-top: 25px;
+  }
+
+
+  .nav {
+    display: none;
+  }
+
+  .navbar {
+    display: inline-block;
+  }
+
+  div.mobile-nav {
+    margin: 0 auto;
+    display: flex;
+    width: 600px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .logo-image {
+    display: inline-block;
+    margin: 0;
+    margin-left: 60px;
+    position: relative;
+    top: 20px;
+  }
+
+/* Navbar container */
+  .navbar {
+    margin: 0;
+    overflow: hidden;
+    background-color: rgb(255, 246, 236);
+    font-family: 'Arsenal', sans-serif;
+  }
+
+/* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 35px;
+    color: black;
+    text-align: center;
+    padding: 20px 26px;
+    text-decoration: none;
+  }
+
+/* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+    margin-left: 250px;
+  }
+
+/* Dropdown button */
+  .dropdown .dropbtn {
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 80px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+
+/* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+
+  }
+
+/* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 50px;
+  }
+
+/* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+/* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+/* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .footer-erase {
+    display: none;
+  }
+
+  footer p {
+    font-size: 20px;
+  }
+
+  footer {
+    height: 100px;
+  }
+
+  .first-p {
+    top: 2px;
+  }
+
+  .second-p {
+    top: -10px;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .body {
+    width: 445px;
+    margin-top: 25px;
+  }
+
+  div.mobile-nav {
+    width: 445px;
+  }
+
+  .logo-image {
+    margin-left: 25px;
+  }
+
+  .dropdown {
+    margin-left: 190px;
+  }
+
+  .first-p {
+    top: 4px;
+  }
+
 }
