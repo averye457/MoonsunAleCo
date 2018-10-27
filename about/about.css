@@ -3,6 +3,7 @@
 }
 
 .london-map {
+  object-fit: cover;
   width: 100%;
 }
 
@@ -23,8 +24,13 @@ h1 {
   justify-content: space-between;
 }
 
+.other {
+  display: none;
+}
+
 .primary,
-.secondary {
+.secondary,
+.other {
   width: 385px;
   padding-right: 20px;
   font-family: 'Butler Light', 'Times', 'Times New Roman', serif;
@@ -35,12 +41,118 @@ h1 {
   border-bottom: 4px solid rgb(220, 129, 62);
 }
 
-.secondary {
-
+.other {
+  padding-right: 0;
+  width: 70%;
 }
 
 .tertiary {
   width: 200px;
   height: 300px;
+  object-fit: cover;
   margin-left: 30px;
+}
+
+
+@media (max-width: 1000px) {
+
+  h1 {
+    font-size: 32px;
+  }
+
+  .other {
+    display: inline-block;
+    height: 315px;
+  }
+
+  .primary,
+  .secondary {
+    display: none;
+  }
+
+  .tertiary {
+    margin-left: 5px;
+  }
+
+}
+
+
+@media (max-width: 900px) {
+
+  .london-map {
+    padding-top: 50px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .other {
+    display: inline-block;
+    height: 355px;
+  }
+
+  .primary,
+  .secondary {
+    display: none;
+  }
+
+  .tertiary {
+    margin-left: 5px;
+    height: 325px;
+  }
+
+  .other {
+    padding-bottom: 30px;
+  }
+
+}
+
+@media (max-width: 750px) {
+
+  .other {
+    height: 440px;
+  }
+
+  .tertiary {
+    margin-left: 10px;
+    height: 350px;
+    width: 175px;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .london-map {
+    height: 150px;
+  }
+
+  .tertiary {
+    display: none;
+  }
+
+  .other {
+    width: 100%;
+    height: 380px;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .body {
+    width: 90%;
+  }
+
+  .other {
+    width: 100%;
+    padding-bottom: 20px;
+    border-bottom: none;
+    height: auto;
+    text-align: justify;
+  }
+
+
+
 }
