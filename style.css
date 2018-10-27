@@ -435,7 +435,7 @@ footer p a:hover {
 @media (max-width: 385px) {
 
   .navbar {
-    margin-left: 20%;
+    margin-left: 25%;
   }
 
   footer p {
@@ -455,7 +455,7 @@ footer p a:hover {
 @media (max-width: 350px) {
 
   .navbar {
-    margin-left: 5%;
+    margin-left: 25%;
   }
 
   .dropdown {
