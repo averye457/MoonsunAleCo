@@ -16,21 +16,6 @@ p {
   color: rgb(220, 129, 62);
 }
 
-.column1 {
-  width: 330px;
-  float: left;
-   margin-right: 25px;
-   margin-top: 0;
-   margin-bottom: 0;
-}
-
-.column2 {
-  width: 330px;
-  float: left;
-  margin-right: 45px;
-  margin-top: 0;
-  margin-bottom: 0;
-}
 
 .beer_on_black {
   float: left;
@@ -39,6 +24,12 @@ p {
   margin: 0 0;
   padding: 0 0;
   margin-bottom: 100px;
+}
+
+.flex-box {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
 
 hr {
@@ -55,21 +46,12 @@ hr {
 
 .first, .second, .third {
   width: 320px;
-  float: left;
 }
 
-.first, .second {
-  margin-right: 20px;
-}
 
 .column img {
   width: 320px;
   margin-bottom: 0;
-}
-
-
-.first img, .second img {
-  margin-right: 20px;
 }
 
 
@@ -119,4 +101,49 @@ input {
 
 .stockists {
   margin-top: -.5px;
+}
+
+
+
+
+
+@media (max-width: 1000px) {
+
+
+}
+
+
+@media (max-width: 900px) {
+
+  .flex-box {
+    margin-top: 75px;
+  }
+
+
+}
+
+@media (max-width: 750px) {
+
+  .button {
+    width: 100%;
+    padding: 20px 10px;
+    font-size: 22px;
+  }
+
+  .column h1 {
+    font-size: 24px;
+  }
+
+
+
+}
+
+@media (max-width: 600px) {
+
+
+}
+
+@media (max-width: 600px) {
+
+
 }
