@@ -72,3 +72,69 @@
   height: 400px;
   width: 219px;
 }
+
+
+@media (max-width: 1000px) {
+
+  .contact-info {
+    padding-left: 100px;
+    width: 400px;
+  }
+
+
+}
+
+
+@media (max-width: 1000px) {
+
+
+}
+
+
+@media (max-width: 900px) {
+
+  .contact-info {
+    margin-top: 75px;
+  }
+
+  #pintglass-image {
+    margin-top: 75px;
+  }
+
+
+}
+
+@media (max-width: 750px) {
+
+  #pintglass-image img {
+    display: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .contain {
+    justify-content: center;
+  }
+
+  .contact-info {
+    width: 300px;
+    border: none;
+    padding: 0 auto;
+    padding-left: 0;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+
+}
+
+@media (max-width: 450px) {
+
+  .contact-info {
+    width: 150px;
+  }
+
+
+}
