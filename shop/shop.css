@@ -57,3 +57,73 @@
 
 
 }
+
+h2 {
+  margin: 50px auto;
+  font-family: 'Arsenal', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  font-style: italic;
+  color: black;
+  text-transform: uppercase;
+}
+
+
+/* GOOGLE MAPS CODE */
+
+
+
+/* Always set the map height explicitly to define the size of the div
+ * element that contains the map. */
+#map {
+  height: 600px;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 24px;
+  margin: 0;
+}
+
+#map p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+  margin: 0;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+}
+
+div a {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+}
+
+div a:hover {
+  text-decoration: underline;
+}
+
+div a:visited {
+  color: black;
+}
+
+#info-window {
+  max-width: 300px;
+}
